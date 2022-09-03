@@ -1,16 +1,18 @@
 *{
 
 }
+
 .container {
     display: flex;
     flex-direction:column ;
     height: 50vw;
-
+    
 }
 .heading {
     background-color: darkcyan;
     padding: 2rem;
     text-align: center;
+    margin-top: 0rem;
 }
 .description {
     background-color: darkcyan;
@@ -31,4 +33,10 @@
     padding: .3rem;
     font-weight: bolder;
 
+}
+label{
+    background-color: rgb(108, 183, 183);
+}
+.change-table {
+    background-color: rgb(141, 192, 192);
 }
