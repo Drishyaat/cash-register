@@ -1,0 +1,34 @@
+*{
+
+}
+.container {
+    display: flex;
+    flex-direction:column ;
+    height: 50vw;
+
+}
+.heading {
+    background-color: darkcyan;
+    padding: 2rem;
+    text-align: center;
+}
+.description {
+    background-color: darkcyan;
+    color: beige;
+}
+#bill-amount {
+    background-color: beige;
+    padding: .3rem;
+}
+#cash-given {
+    background-color: beige;
+    padding: .3rem;
+
+}
+#check-button {
+    background-color: darkcyan;
+    color: beige;
+    padding: .3rem;
+    font-weight: bolder;
+
+}
