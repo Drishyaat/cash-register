@@ -9,19 +9,21 @@ const availableNotes=[2000 ,500 ,100 ,50 ,10 ,5 ,1 ];
 checkButton.addEventListener("click", function validateBillandCash()
 {message.style.display="none"; 
     
-    if(billAmount.value > 0 ){
-        if(cashGiven.value >= billAmount.value){
+    if(Number(billAmount.value) > 0 )
+    {
+        if(Number(cashGiven.value) >= Number(billAmount.value))
+        {
             const amountTobeReturned= cashGiven.value - billAmount.value;
             calculateChange(amountTobeReturned);
- 
         }
-        else{
+        else
+        {
             showMessage("Cash given should be atleast equal to bill amount.");
         }
     }
-    else{
-        
-       showMessage("Invalid bill amount");
+    else
+    {
+        showMessage("Invalid bill amount");
     }
 }
 );
@@ -32,7 +34,8 @@ for( var i=0; i< availableNotes.length ;i++)
     var numberOfNotes= Math.trunc(amountTobeReturned/availableNotes[i]);
 
     amountTobeReturned = amountTobeReturned % availableNotes[i];
-    noOfNotes[i].innerText = numberOfNotes;}
+    noOfNotes[i].innerText = numberOfNotes;
+}
 }
 function showMessage(msg){
     
