@@ -12,5 +12,11 @@
 * Designed a check button which calls function `validateBillandCash` on clicking
 * Defined a function `calculateChange` to find out the amount to be returned with the help of minimum number of notes
 * Designed a change table and used .innerText to display output
- 
+ ### Technologies used:
+* HTML
+* CSS
+* JavaScript
+### Live link of project 
+[Here](https://cash-register-mark-ten.netlify.app/)
+
 
